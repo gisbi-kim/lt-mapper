@@ -48,7 +48,7 @@
 
 <!-- ------------------------------------------ -->
 ## Contact 
-Maintained by Giseop Kim and please contact the author via ``paulgkim@kaist.ac.kr``
+- Maintained by Giseop Kim and please contact the author via ``paulgkim@kaist.ac.kr``
 
 
 <!-- ------------------------------------------ -->
