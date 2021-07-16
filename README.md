@@ -1,37 +1,65 @@
 # LT-mapper
 
-## Note
-- Schedule Plan  
-  - TODO
+<!-- ------------------------------------------ -->
+## News
+- ``July 2021``
+  - A preprint manuscript is available [Download the paper (TBA)](TBA).
+  - LT-SLAM module is released.
 
-- [Download the paper](TODO)
-
+<!-- ------------------------------------------ -->
 ## What is LT-mapper?
 - A Modular Framework for LiDAR-based Lifelong Mapping
 
-### Features 
+### Why LT-mapper?
+- For LiDAR-based long-term mapping, three challenges exist. 
+  <p align="center"><img src="doc/whyltmapper.png" width=1000></p>
 
+### Features 
+- TBA
+
+
+<!-- ------------------------------------------ -->
 ## How to use?
 
-## Examples
+### Prerequisites and build 
+- TBA
+ 
+ 
+<!-- ------------------------------------------ -->
+## Tutorial and examples
 
-### LT-SLAM 
+### 1. LT-SLAM 
+```
+  TBA
+```
+
+### 2. LT-removert 
 - TBA
 
-### LT-removert 
+### 3. LT-map
 - TBA
 
-### LT-map
-- TBA
 
+<!-- ------------------------------------------ -->
 ## Citation
 ```
   TBA
 ```
 
-## Code History 
+<!-- ------------------------------------------ -->
+## Contact 
+Maintained by Giseop Kim and please contact the author via ``paulgkim@kaist.ac.kr``
 
 
+<!-- ------------------------------------------ -->
+## Release schedule
+- LT-SLAM
+  - Currently, support 2-session alignment 
+  - N-session alignment will be supported by Sep 2021.  
+- LT-removert and LT-map modules will be released by Dec 2021).
+
+
+<!-- ------------------------------------------ -->
 ## Acknowledgements
 - TBA
 
