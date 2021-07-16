@@ -53,9 +53,9 @@
 
 <!-- ------------------------------------------ -->
 ## Release schedule
-- LT-SLAM
-  - Currently, we support 2-session alignment. N-session alignment will be supported by Sep 2021.  
-- LT-removert and LT-map modules will be released by Dec 2021).
+- [x] ``July 2021`` A pre-print manuscript and initial version of LT-SLAM is released.
+- [ ] ``By Sep 2021`` About LT-SLAM: Currently, we support 2-session alignment. N-session alignment will be supported.  
+- [ ] ``By Dec 2021`` LT-removert and LT-map modules will be released.
 
 
 <!-- ------------------------------------------ -->
