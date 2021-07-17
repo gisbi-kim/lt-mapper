@@ -47,7 +47,7 @@
 ## LT-mapper ParkingLot dataset 
 - LT-mapper ParkingLot dataset contains six sequences during three days for the same spatial site, but different initial poses. 
 - LT-SLAM automatically aligns them in a shared coordinate.
-  <p align="center"><img src="doc/ltparkinglot.png" width=700></p>
+  <p align="center"><img src="doc/ltparkinglot.png" width=630></p>
 - [Dataset Download Link](https://bit.ly/ltmapper_parkinglot_data). A sequence is replayable using [MulRan File Player](https://github.com/irapkaist/file_player_mulran). 
   - For the details of use, see [this tutorial video (TBA)](TBA). 
 
