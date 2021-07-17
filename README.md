@@ -28,6 +28,9 @@
 <!-- ------------------------------------------ -->
 ## Tutorial and examples
 
+### 0. Single-session Data Generation 
+- Using [the saver](https://github.com/gisbi-kim/SC-LIO-SAM#applications) provided with [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM) (also in [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM)  or [FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM)), a user should generate the set of sesssion data (i.e., keyframe point cloud scans, keyframe scan context descriptors (SCDs), and an initial pose-graph text file) for each session.  
+
 ### 1. LT-SLAM 
 ```
   TBA
