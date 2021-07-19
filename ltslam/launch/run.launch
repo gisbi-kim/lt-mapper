@@ -1,0 +1,15 @@
+<launch>
+
+    <arg name="project" default="ltslam"/>
+
+    <!-- Parameters -->
+    <rosparam file="$(find ltslam)/config/params.yaml" command="load" />
+
+    <!-- main -->
+    <!-- <node pkg="$(arg project)" type="$(arg project)_main_2Dtest" name="$(arg project)_main_2Dtest" output="screen" respawn="true"/> -->
+    <node pkg="$(arg project)" type="$(arg project)_ltslam" name="$(arg project)_ltslam" output="screen" respawn="false"/>
+
+    <!--- TODO - Run Rviz --> 
+    <!-- <include file="$(find lio_sam)/launch/ltmapper_visualization.launch" /> -->
+
+</launch>
