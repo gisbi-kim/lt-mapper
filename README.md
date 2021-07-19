@@ -3,7 +3,7 @@
 <!-- ------------------------------------------ -->
 ## News
 - ``July 2021``
-  - A preprint manuscript is available [Download the paper (TBA)](TBA).
+  - A preprint manuscript is available ([download the preprint](./doc/ltmapper-v1.pdf)).
   - LT-SLAM module is released.
 
 <!-- ------------------------------------------ -->
