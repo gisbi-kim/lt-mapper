@@ -5,6 +5,7 @@
 - ``July 2021``
   - A preprint manuscript is available ([download the preprint](./doc/ltmapper-v1.pdf)).
   - LT-SLAM module is released.
+- [``The future release schedule`` is here](#release-schedule) 
 
 <!-- ------------------------------------------ -->
 ## What is LT-mapper?
@@ -54,7 +55,12 @@
 <!-- ------------------------------------------ -->
 ## Citation
 ```
-  TBA
+@article{kim2021ltmapper,
+  title={{LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping}},
+  author={Kim, Giseop and Kim, Ayoung},
+  journal={arXiv preprint arXiv:2107.07712},
+  year={2021}
+}
 ```
 
 <!-- ------------------------------------------ -->
