@@ -162,12 +162,18 @@ void Session::loadSessionKeyframePointclouds()
     }    
 
     // load PCDs
+    int num_pcd_loaded = 0;
     for (auto const& _pcd_name: pcd_names)
     {
         // cout << " load " << _pcd_name.second << endl;
         pcl::PointCloud<PointType>::Ptr thisKeyFrame(new pcl::PointCloud<PointType>());
         pcl::io::loadPCDFile<PointType> (_pcd_name.second, *thisKeyFrame);
         cloudKeyFrames.push_back(thisKeyFrame);
+
+        num_pcd_loaded++;
+        if(num_pcd_loaded >= nodes_.size()) {
+            break;
+        }
     }
     cout << "PCDs are loaded (" << name_ << ")" << endl;
 }
@@ -193,11 +199,17 @@ void Session::loadSessionScanContextDescriptors()
     }    
 
     // load SCDs
+    int num_scd_loaded = 0;
     for (auto const& _scd_name: scd_names)
     {
         // std::cout << "load a SCD: " << _scd_name.second << endl;
         Eigen::MatrixXd scd = readSCD(_scd_name.second);
         scManager.saveScancontextAndKeys(scd);
+
+        num_scd_loaded++;
+        if(num_scd_loaded >= nodes_.size()) {
+            break;
+        }
     }
     cout << "SCDs are loaded (" << name_ << ")" << endl;
 
