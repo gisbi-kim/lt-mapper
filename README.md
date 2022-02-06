@@ -1,15 +1,10 @@
-# LT-mapper
-
-<!-- ------------------------------------------ -->
-## News
-- ``July 2021``
-  - A preprint manuscript is available ([download the preprint](./doc/ltmapper-v1.pdf)).
-  - LT-SLAM module is released.
-- [``The future release schedule`` is here](#release-schedule) 
+# LT-mapper (ICRA 22)
 
 <!-- ------------------------------------------ -->
 ## What is LT-mapper?
 - A Modular Framework for LiDAR-based Lifelong Mapping
+  - [Paper](./doc/ltmapper-v1.pdf)
+  - [Video](https://youtu.be/vlYKfp1p2j8)
 
 ### Why LT-mapper?
 - For LiDAR-based long-term mapping, three challenges exist. 
@@ -39,8 +34,8 @@
  
 - command
   ```
-      # change the paths in ltslam/config/params.yaml
-      roslaunch ltslam run.launch
+    # change the paths in ltslam/config/params.yaml
+    roslaunch ltslam run.launch
   ```
 
 ### 2. LT-removert 
@@ -61,11 +56,12 @@
 <!-- ------------------------------------------ -->
 ## Citation
 ```
-@article{kim2021ltmapper,
-  title={{LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping}},
-  author={Kim, Giseop and Kim, Ayoung},
-  journal={arXiv preprint arXiv:2107.07712},
-  year={2021}
+@INPROCEEDINGS { kim2021ltmapper,
+    AUTHOR = { Giseop Kim, Ayoung Kim },
+    TITLE = { {LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping} },
+    BOOKTITLE = { Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) },
+    YEAR = { 2022 },
+    NOTE = { Accepted. To appear. },
 }
 ```
 
@@ -77,8 +73,7 @@
 <!-- ------------------------------------------ -->
 ## Release schedule
 - [x] ``July 2021`` A pre-print manuscript and initial version of LT-SLAM is released.
-- [ ] ``By Sep 2021`` About LT-SLAM: Currently, we support 2-session alignment. N-session alignment will be supported.  
-- [ ] ``By Dec 2021`` LT-removert and LT-map modules will be released.
+- [ ] ``By Apr 2022`` LT-removert and LT-map modules will be released. -> It is taking a little more time. I could say that the complete codes will be shared before the conference (May, 2022).
 
 
 <!-- ------------------------------------------ -->
