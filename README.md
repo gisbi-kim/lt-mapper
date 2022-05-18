@@ -38,11 +38,14 @@
     roslaunch ltslam run.launch
   ```
 
-### 2. LT-removert 
-- TBA
-
-### 3. LT-map
-- TBA
+### 2. LT-removert and LT-map
+- `ltremovert` directory runs removert (for single-session cleaning) and change detection between two sessions. 
+- command
+  ```
+    TBA
+  ```
+- Outputs
+  <p align="center"><img src="doc/ltremovert_and_map_results.png" width=600></p>
 
 
 <!-- ------------------------------------------ -->
@@ -61,22 +64,10 @@
     TITLE = { {LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping} },
     BOOKTITLE = { Proceedings of the IEEE International Conference on Robotics and Automation (ICRA) },
     YEAR = { 2022 },
-    NOTE = { Accepted. To appear. },
 }
 ```
 
 <!-- ------------------------------------------ -->
 ## Contact 
-- Maintained by Giseop Kim and please contact the author via ``paulgkim@kaist.ac.kr``
-
-
-<!-- ------------------------------------------ -->
-## Release schedule
-- [x] ``July 2021`` A pre-print manuscript and initial version of LT-SLAM is released.
-- [ ] ``By Apr 2022`` LT-removert and LT-map modules will be released. -> It is taking a little more time. I could say that the complete codes will be shared before the conference (May, 2022).
-
-
-<!-- ------------------------------------------ -->
-## Acknowledgements
-- TBA
+- Maintained by Giseop Kim and please contact the author via ``giseop.kim@naverlabs.com``
 
