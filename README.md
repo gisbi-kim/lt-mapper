@@ -2,7 +2,7 @@
 
 <!-- ------------------------------------------ -->
 ## What is LT-mapper?
-- A Modular Framework for LiDAR-based Lifelong Mapping
+- A Modular Framework for LiDAR-based Lifelong Mapping. It handles multi-session SLAM.
   - [Paper](./doc/ltmapper-v1.pdf)
   - [Video](https://youtu.be/vlYKfp1p2j8)
 
