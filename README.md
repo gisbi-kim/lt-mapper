@@ -22,7 +22,7 @@ For more deatils, please refer to our [paper](./doc/ltmapper-v1.pdf) and [video]
 - **Dynamic Object Removal (LT-removert):** Efficiently filter high dynamic points and detect low-dynamic changes between sessions.
 - **Map Management (LT-map):** Maintain live maps, generate meta-maps, and efficiently compose changes using delta maps.
 - **Seamless Modular Integration:** Each module can run seperately via file-based in/out protocol.
-
+<p align="center"><img src="doc/ltmapper_pipeline.png" width=1000></p>
 
 <!-- ------------------------------------------ -->
 ## Getting Started
