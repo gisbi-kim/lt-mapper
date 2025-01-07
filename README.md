@@ -8,10 +8,10 @@
 - Multi-session trajectory alignment (LT-SLAM)
 - High/low dynamic object filtering and change detection (LT-removert)
 - Efficient map management and change composition (LT-map)
-<p align="center"><img src="doc/whyltmapper.png" width=1000></p>
+<p align="center"><img src="./doc/challenges.png" width=1000></p>
 The framework supports real-world scenarios, handling ephemeral and persistent changes across multiple sessions without requiring perfect initial alignment.
 
-For more deatils, please refer to our [paper](./doc/ltmapper-v1.pdf) and [video](https://youtu.be/vlYKfp1p2j8).
+For more deatils, please refer to our [paper](./doc/ltmapper.pdf) and [video](https://youtu.be/vlYKfp1p2j8).
 
 <!-- ### Why LT-mapper? -->
 <!-- - For LiDAR-based long-term mapping, three challenges exist.  -->
@@ -22,7 +22,7 @@ For more deatils, please refer to our [paper](./doc/ltmapper-v1.pdf) and [video]
 - **Dynamic Object Removal (LT-removert):** Efficiently filter high dynamic points and detect low-dynamic changes between sessions.
 - **Map Management (LT-map):** Maintain live maps, generate meta-maps, and efficiently compose changes using delta maps.
 - **Seamless Modular Integration:** Each module can run seperately via file-based in/out protocol.
-<p align="center"><img src="doc/ltmapper_pipeline.png" width=1000></p>
+<p align="center"><img src="./doc/pipeline.png" width=630></p>
 
 <!-- ------------------------------------------ -->
 ## Getting Started
@@ -69,7 +69,7 @@ To run the LT-mapper, you first need to generate a set of session data containin
 - **Keyframe Scan Context Descriptors (SCDs)**  
 - **Pose Graph File**
 
-You can generate these session data files using the [saver tool](https://github.com/gisbi-kim/SC-LIO-SAM#applications) provided with [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM#applications). Alternatively, the saver is also available in [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM) and [FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM).
+You can generate these session data files using the [saver tool](https://github.com/gisbi-kim/SC-LIO-SAM#applications) provided with [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM). Alternatively, the saver is also available in [SC-A-LOAM](https://github.com/gisbi-kim/SC-A-LOAM) and [FAST_LIO_SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM).
 
 ### 1. LT-SLAM
 **LT-SLAM** module aligns trajectories across multiple sessions. For a step-by-step guide, check out this [tutorial video](https://youtu.be/BXBTVurNToU).
@@ -90,7 +90,7 @@ roslaunch removert run_ltmapper.launch
 **Outputs**
 
 Once the process is complete, following outputs will be generated:
-  <p align="center"><img src="doc/ltremovert_outputs.png" width=600></p>
+  <p align="center"><img src="./doc/outputs.png" width=600></p>
 
 
 <!-- ------------------------------------------ -->
@@ -105,7 +105,7 @@ Update paths in ``ltslam/config/param.yaml`` and execute LT-SLAM.
 
 LT-SLAM will automatically align multiple sessions within a shared coordinate system.
 
-<p align="center"><img src="doc/parkinglot_ltslam.png" width="630"></p>
+<p align="center"><img src="./doc/parkinglot_ltslam.png" width="630"></p>
 
 #### Step 2: Run LT-Removert & LT-Map
 Update paths in ``ltremovert/config/param_ltmapper.yaml`` and execute LT-removert & LT-map.
