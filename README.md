@@ -137,3 +137,5 @@ After running LT-Removert & LT-Map, you will get cleaned session data and detect
 ## Contact 
 - Maintained by Giseop Kim and please contact the author via ``gsk@dgist.ac.kr``
 
+### Acknowledgement 
+- Big thanks to [Dongjae Lee](https://dongjae0107.github.io/) for contributions in refactoring, dockerization, documentation, and various verifications.
