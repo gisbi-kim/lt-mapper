@@ -58,6 +58,11 @@ cd ~/catkin_ws/src/lt-mapper/docker
 bash build.sh
 bash run.sh
 ```
+or you can pull the pre-built image from Docker Hub.
+```shell
+docker pull dongjae0107/lt-mapper:latest
+bash run.sh
+```
 
 <!-- ------------------------------------------ -->
 ## How to use it
